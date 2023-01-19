@@ -1,0 +1,8 @@
+This is a webscrapper that scrapes data(product details) from an Amazon webPage using node js & send the information as  a message to a client using Twiloi Api
+The app is bound to break if the amazon webpage is modified or updated hence I advice one to  make changes to the tags, class or divs being referenced to find the various specified data(name, price)
+
+# INSTALLED PACKAGES
+axios # https://axios-http.com/docs/intro 
+cheerio # https://cheerio.js.org/
+twilio # https://www.twilio.com/
+
